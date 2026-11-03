@@ -1,4 +1,4 @@
-# blvkware-dev
+# BlvkWare
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-blvkware-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://blvkware.dev/
+BlvkWare designs AI agents that do real work and sells each as a downloadable kit. The kits include the agent's instructions, tool definitions for OpenAI, Anthropic and MCP formats, workflows, record schemas, autonomy policies, and acceptance tests, all generated from the buyer's answers. Pricing starts at $79 for a single‑job kit and $199 for a full‑function kit.
+
+**Areas:** AI · Agent · Kit · Automation · Marketplace · Company
+
+## BlvkWare on APIs.io
+
+Everything profiled for BlvkWare is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blvkware-dev/](https://apis.io/providers/blvkware-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [BlvkWare Check API](https://apis.io/apis/blvkware-dev/blvkware-dev-check-api/) — Resolve identifiers to verdicts.
+- [BlvkWare Corpus API](https://apis.io/apis/blvkware-dev/blvkware-dev-corpus-api/) — The phantom ledger itself.
+- [BlvkWare Meta API](https://apis.io/apis/blvkware-dev/blvkware-dev-meta-api/) — Coverage, methodology and our own numbers.
+- [BlvkWare Watch API](https://apis.io/apis/blvkware-dev/blvkware-dev-watch-api/) — Be told when a verdict changes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Blvkware Dev Agentic Access](https://apis.io/agentic-access/blvkware-dev/blvkware-dev-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [CheckRequest](https://apis.io/schemas/blvkware-dev/blvkware-dev-check-request/)
+- [CheckResponse](https://apis.io/schemas/blvkware-dev/blvkware-dev-check-response/)
+- [Result](https://apis.io/schemas/blvkware-dev/blvkware-dev-result/)
+- [WatchRequest](https://apis.io/schemas/blvkware-dev/blvkware-dev-watch-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Blvkware Dev Context](https://apis.io/jsonld/blvkware-dev/blvkware-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [BlvkWare API Rules](https://apis.io/rules/blvkware-dev/blvkware-dev-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blvkware Dev Domain Security](https://apis.io/security/blvkware-dev/blvkware-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Blvkware Dev Plans Pricing](https://apis.io/plans/blvkware-dev/blvkware-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blvkware.dev/)
+- [Documentation](https://blvkware.dev/guides/)
+- [Pricing](https://blvkware.dev/pricing/)
+- [Terms of service](https://blvkware.dev/terms/)
+- [Privacy policy](https://blvkware.dev/privacy/)
+- [GitHub](https://github.com/rxslice)
+
+## API Evangelist rating
+
+**Kin Score 46.4** — developing · rubric 0.25.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 16.0 |
+| Access clarity | 60.0 |
+
+**Agent readiness 30.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blvkware-dev/](https://apis.io/providers/blvkware-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BlvkWare: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blvkware-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
